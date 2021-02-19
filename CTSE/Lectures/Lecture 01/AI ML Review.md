@@ -29,7 +29,7 @@ For more information click [here](https://www.guru99.com/supervised-vs-unsupervi
 ## (01)Unsupervised Learning
 Perform a prediction or classification using unlabeled data
 
-- K-Means Clustering
+- ### K-Means Clustering<br>
 ![AI ML](https://i.ibb.co/LvzDnmS/Captureaaa.png)
 
 - ### Principal Component Analysis
