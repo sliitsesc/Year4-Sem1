@@ -26,13 +26,18 @@ A scientific study of algorithms and statistical models that computer systems us
 **Unsupervised Machine Learning - Unlabelled Data**
 For more information click [here](https://www.guru99.com/supervised-vs-unsupervised-learning.html)
 
-## Supervised Learning
-Is a class of machine learning in a which model is trained using a set of pre existing data set
-
 ## Unsupervised Learning
 Perform a prediction or classification using unlabeled data
 
+## Supervised Learning
+Is a class of machine learning in a which model is trained using a set of pre existing data set
 - ### Linear Regression
 - Predicting a continuous value based on observations features
+- ![AI ML](https://i.ibb.co/30cj25V/Capturae.png)
+
+- ### Quantile Regression
+- Helps to predict the range or entire distribution of the target variable
+
+
 
 
