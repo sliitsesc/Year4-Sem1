@@ -32,7 +32,7 @@ Is a class of machine learning in a which model is trained using a set of pre ex
 ## Unsupervised Learning
 Perform a prediction or classification using unlabeled data
 
-- ###Linear Regression
+- ### Linear Regression
 - Predicting a continuous value based on observations features
 
 
