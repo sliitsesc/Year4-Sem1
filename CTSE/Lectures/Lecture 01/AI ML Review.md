@@ -18,3 +18,21 @@ A scientific study of algorithms and statistical models that computer systems us
 | ---------------------------------------------------------------- | ------------- |
 | Application of AI that provides systems with the ability to automatically learn and improve from experience without being explicitly programmed. | The development of automated computer programs which requires human interaction. |
 
+## Variences in Machine Learning
+
+![AI ML](https://i.ibb.co/bRMdn2B/Capture.png)
+
+**Supervised Machine Learning - Labelled Data** <br>
+**Unsupervised Machine Learning - Unlabelled Data**
+For more information click [here](https://www.guru99.com/supervised-vs-unsupervised-learning.html)
+
+## Supervised Learning
+Is a class of machine learning in a which model is trained using a set of pre existing data set
+
+## Unsupervised Learning
+Perform a prediction or classification using unlabeled data
+
+- ###Linear Regression
+- Predicting a continuous value based on observations features
+
+
