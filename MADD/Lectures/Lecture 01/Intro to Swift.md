@@ -53,7 +53,9 @@ Apple's native object-oriented application programming interface (API) for its d
 
 | Stored properties  | Computed properties |
 | ------------- | ------------- |
-
-
-
+| <img width="234" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108616497-cc058500-7433-11eb-95a3-5d10da0c16ea.PNG">
+ | |
+| **Property Obervers** | |
+| - willSet is called just before the value is stored.
+- didSet is called immediately after the new value is stored. | |
 
