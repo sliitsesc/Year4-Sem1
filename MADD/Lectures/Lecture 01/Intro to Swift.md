@@ -58,4 +58,7 @@ For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Prope
 | <img width="234" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108616497-cc058500-7433-11eb-95a3-5d10da0c16ea.PNG"> | <img width="529" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108616845-5b606780-7437-11eb-98e8-fe888a7c5c07.PNG"> |
 | **Property Obervers** | |
 | - willSet is called just before the value is stored.<br> - didSet is called immediately after the new value is stored. | |
+| <img width="527" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108617102-a3808980-7439-11eb-903b-4ad692a6bf68.PNG"> | |
 
+
+Static - Static Variables are stored with the Class
