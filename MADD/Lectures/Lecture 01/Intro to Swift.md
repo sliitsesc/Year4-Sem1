@@ -21,4 +21,39 @@ Apple's native object-oriented application programming interface (API) for its d
 - Written in the Objective-C
 - use of hardware
 
+## Cocoa Touch - Main features🤔
+
+- App Extension
+- Handoff
+- Document Picker
+- AirDrop
+- TextKit
+- UIKit Dynamics
+- Multitasking
+- Auto Layout
+- Storyboards
+- UI State Preservation
+- Apple Push Notification Service
+- Local Notifications
+- Gesture Recognizers
+
+## Cocoa Touch - Main features😌
+
+- Foundation Kit Framework
+- UIKit Framework
+- GameKit Framework
+- MapKit Framework
+- Address Book UI Framework
+- EventKit UI Framework
+- Message UI Framework
+- Notification Center Framework
+- PushKit Framework
+
+## Swift: Properties
+
+| Stored properties  | Computed properties |
+| ------------- | ------------- |
+
+
+
 
