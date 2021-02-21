@@ -61,4 +61,5 @@ For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Prope
 | <img width="527" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108617102-a3808980-7439-11eb-903b-4ad692a6bf68.PNG"> | |
 
 
-Static - Static Variables are stored with the Class
+### **Static - Static Variables are stored with the Class** 
+<img width="636" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108617264-dd9e5b00-743a-11eb-8f8d-3775e6331d4e.PNG">
