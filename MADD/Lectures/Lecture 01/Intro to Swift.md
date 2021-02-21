@@ -51,7 +51,7 @@ Apple's native object-oriented application programming interface (API) for its d
 
 ## Swift: Properties
 
-For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)
+For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Properties.html)🤫
 
 | Stored properties  | Computed properties |
 | ------------- | ------------- |
