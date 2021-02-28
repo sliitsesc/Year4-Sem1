@@ -75,5 +75,6 @@ Extensions in Swift can:
 - Provide new initializers<br>
 <img width="436" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109408970-8e18db80-79b4-11eb-81e4-2c6135ba10b8.PNG"><br>
 - Define subscripts<br>
-- Define and use new nested types
-- Make an existing type conform to a protocol
+<img width="541" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409062-48a8de00-79b5-11eb-8a1b-919ca35041cf.PNG"><br>
+- Define and use new nested types<br>
+- Make an existing type conform to a protocol<br>
