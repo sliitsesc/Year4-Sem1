@@ -81,3 +81,7 @@ Extensions in Swift can:
 - Define and use new nested types<br>
 - Make an existing type conform to a protocol<br>
 
+## Protocol
+
+Protocol is like an interface.
+
