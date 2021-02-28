@@ -92,3 +92,5 @@ Protocol is like an interface.
 <img width="309" alt="Captssure" src="https://user-images.githubusercontent.com/61576355/109409273-624b2500-79b7-11eb-8e7d-1cc6d69459d2.PNG">
 <img width="442" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409271-60816180-79b7-11eb-93fe-7f2a82beeb8a.PNG">
 
+<img width="480" alt="23" src="https://user-images.githubusercontent.com/61576355/109409621-56149700-79ba-11eb-9647-6d1249c2eb87.PNG">
+<img width="439" alt="12" src="https://user-images.githubusercontent.com/61576355/109409622-5745c400-79ba-11eb-8230-ee55eaafd129.PNG">
