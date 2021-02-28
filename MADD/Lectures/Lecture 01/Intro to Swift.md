@@ -63,3 +63,17 @@ For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Prope
 
 ### **Static - Static Variables are stored with the Class** 
 <img width="636" alt="Capture" src="https://user-images.githubusercontent.com/61576355/108617264-dd9e5b00-743a-11eb-8f8d-3775e6331d4e.PNG">
+
+## Extensions
+
+Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you don’t have access to the original source code.
+
+Extensions in Swift can:
+
+- Add computed instance properties and computed type properties
+- Define instance methods and type methods
+- Provide new initializers<br>
+
+- Define subscripts
+- Define and use new nested types
+- Make an existing type conform to a protocol
