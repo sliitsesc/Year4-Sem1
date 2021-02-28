@@ -85,3 +85,8 @@ Extensions in Swift can:
 
 Protocol is like an interface.
 
+<img width="312" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409192-93772580-79b6-11eb-957b-9f3001071945.PNG">
+
+## Optional
+
+
