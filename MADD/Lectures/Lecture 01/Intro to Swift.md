@@ -89,4 +89,6 @@ Protocol is like an interface.
 
 ## Optional
 
+<img width="309" alt="Captssure" src="https://user-images.githubusercontent.com/61576355/109409273-624b2500-79b7-11eb-8e7d-1cc6d69459d2.PNG">
+<img width="442" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409271-60816180-79b7-11eb-93fe-7f2a82beeb8a.PNG">
 
