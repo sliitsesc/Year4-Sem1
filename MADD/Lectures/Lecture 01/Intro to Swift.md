@@ -68,6 +68,8 @@ For More Info Click [Here](https://docs.swift.org/swift-book/LanguageGuide/Prope
 
 Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you don’t have access to the original source code.
 
+<img width="265" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409088-8e65a680-79b5-11eb-9ae4-11827edf1ae6.PNG">
+
 Extensions in Swift can:
 
 - Add computed instance properties and computed type properties
@@ -78,3 +80,4 @@ Extensions in Swift can:
 <img width="541" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109409062-48a8de00-79b5-11eb-8a1b-919ca35041cf.PNG"><br>
 - Define and use new nested types<br>
 - Make an existing type conform to a protocol<br>
+
