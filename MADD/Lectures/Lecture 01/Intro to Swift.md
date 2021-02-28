@@ -73,7 +73,7 @@ Extensions in Swift can:
 - Add computed instance properties and computed type properties
 - Define instance methods and type methods
 - Provide new initializers<br>
-
-- Define subscripts
+<img width="436" alt="Capture" src="https://user-images.githubusercontent.com/61576355/109408970-8e18db80-79b4-11eb-81e4-2c6135ba10b8.PNG"><br>
+- Define subscripts<br>
 - Define and use new nested types
 - Make an existing type conform to a protocol
