@@ -1,23 +1,23 @@
-### Structs
+## Structs
 
 - ⚠️⚠️⚠️ Structs are value types, not reference types
 - Provides extended functionality using methods
 - Provides storage of data using properties
 - A custom data type
 
-### Generics
+## Generics
 
 Generics are the means for writing useful and reusable code.
 Used to implement flexible data structures that are not constrained to a single data type - used a single data type and define 
 
-### Arrays
+## Arrays
 
 let numbers: Array<Int> = [0, 2, 1, 3, 1, 42]
 let numbers1: [Int] = [0, 2, 1, 3, 1, 42]
 let numbers = [0, 2, 1, 3, 1, 42]
 let anyValueArray: [Any] = [“I am string”, 10]
 
-### Sets
+## Sets
 
 🧐 The Set provides no defined ordering
 
@@ -26,12 +26,12 @@ let uniqueNumbers: Set<Int> = [0, 2, 1, 3, 42] print(uniqueNumbers)
 
 Example - Connection Pool - no unique order - just random 
 
-### Hahable Values
+## Hahable Values
 
 - A set cannot have duplicates
 - Swift’s basic built-in types are hashable 👉🏻 String, Bool, Int, Float, Double
 
-### Mutual Sets
+## Mutual Sets
 
 ⚠️ Alternatively, we could check whether the element exists using the contains() Set instance method
 
