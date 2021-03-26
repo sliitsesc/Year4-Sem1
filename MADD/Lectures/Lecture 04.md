@@ -38,4 +38,43 @@ Example - Connection Pool - no unique order - just random
 if mutableStringSet.contains("Ten") { mutableStringSet.remove("Ten")
 }
 
+## Dictionaries
+
+- Stores key , value pairs
+
+- Also known as hash maps
+
+## Memory Management
+
+- ARC (automatic reference counting)
+- Handles most of the memory management
+- Each reference, that points to an instance of a class, is a socalled strong reference
+- As long as there is at least one strong reference pointing to an instance, this instance will not be deallocated
+- When there’s no strong reference pointing to that instance left, the instance will be deallocated
+- The deinit method will only be called by the system when the instance gets deallocated
+
+## Retain Cycle
+
+- After the cycle ends the memory will remian
+- These instances won’t be deallocated
+- This is called a memory leak
+- When the memory usage is to high, iOS will kill the app
+
+## Weak References
+
+- Weak references is a way to avoid retain cycles
+- When only weak references are left and the instances will be deallocated.
+
+## Unownend
+
+- Unowened modifier does the same as weak with one exception
+
+## Protocols
+
+- A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality
+- A protocol can be adopted by a class, structure, enumeration
+
+protocol Purchaseable {
+    var name: String { get set }
+}
 
