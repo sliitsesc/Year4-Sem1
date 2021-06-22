@@ -33,3 +33,25 @@ struct Car {
   }
 }
 ```
+15. Do Swift initializers return values? Why?
+16. What is the use of Double question mark (??) in Swift? 
+17. What is an Optional in Swift? What problem do Optionals solve?
+18. Type an empty de initializer for a class called Person.
+19. Briefly explain what is Optional Binding in Swift with an example. 
+20. Briefly explain what is Optional Guard in Swift with an example.
+21. Consider the following structure that models a car..
+    a) Above code will generate a run time error. Explain why?
+    ```swift
+    struct Car {
+      let engineCapacity: Int
+  
+      init(_ engineCapacity: Int) {
+        self.engineCapacity = engineCapacity
+       }
+    }
+    
+    let electriCar = Car(engineCapacity: nil)
+    ```
+
+22. 
+
