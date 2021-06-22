@@ -104,7 +104,7 @@ Controllers cobine two by converting data to some form which views can render.
 **VIPER - View Interactor Presenter Entity Routing** - It is the Cleanest Architecture to iOS apps. The word VIPER stands for View, Interactor, Presenter, Entity, and Routing. Clean Architecture divides an app’s logical structure into layers of responsibility. 
 
 
-6. Briefly explain what are the Lazy properties in Swift.
+6. **Briefly explain what are the Lazy properties in Swift.**
 
 A lazy stored property is a property whose initial value isn’t calculated until the first time it’s used. You indicate a lazy stored property by writing the lazy modifier before its declaration.
 ```swift
@@ -123,14 +123,35 @@ manager.data.append("Some data")
 manager.data.append("Some more data")
 ```
 
-7. Briefly explain what are the Type properties in Swift. 
+7. **Briefly explain what are the Type properties in Swift.**
   
   Properties associate values with a particular class, structure, or enumeration.
   ```swift
   let age:Int // type property
   ```
 
-8. Compare value types and reference types in Swift. 
+8. **Compare value types and reference types in Swift.**
+
+Types in Swift fall into one of two categories: first, “value types”, where each instance keeps a unique copy of its data, usually defined as a struct, enum, or tuple. The second, “reference types”, where instances share a single copy of the data, and the type is usually defined as a class.
+
+The most basic distinguishing feature of a value type is that copying — the effect of assignment, initialization, and argument passing — creates an independent instance with its own unique copy of its data:
+```swift
+// Value type example
+struct S { var data: Int = -1 }
+var a = S()
+var b = a						// a is copied to b
+a.data = 42						// Changes a, not b
+println("\(a.data), \(b.data)")	// prints "42, -1"
+```
+Copying a reference, on the other hand, implicitly creates a shared instance. After a copy, two variables then refer to a single instance of the data, so modifying data in the second variable also affects the original, e.g.:
+```swift
+// Reference type example
+class C { var data: Int = -1 }
+var x = C()
+var y = x						// x is copied to y
+x.data = 42						// changes the instance referred to by x (and y)
+println("\(x.data), \(y.data)")	// prints "42, 42"
+```
 
 9. What are the access modifiers available in Swift? Explain them briefly. 
 
