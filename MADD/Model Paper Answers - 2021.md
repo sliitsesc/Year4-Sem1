@@ -132,26 +132,51 @@ manager.data.append("Some more data")
 
 8. **Compare value types and reference types in Swift.**
 
-Types in Swift fall into one of two categories: first, “value types”, where each instance keeps a unique copy of its data, usually defined as a struct, enum, or tuple. The second, “reference types”, where instances share a single copy of the data, and the type is usually defined as a class.
+<table>
+  <tr>
+    <th>Value Type</th>
+    <th>Reference Type</th>
+  </tr>
+  
+  <tr>
+    <td>ypes in Swift fall into one of two categories: first, “value types”, where each instance keeps a unique copy of its data, usually defined as a struct, enum, or tuple. </td>
+    <td>The second, “reference types”, where instances share a single copy of the data, and the type is usually defined as a class.</td>
+  </tr>
+  
+  <tr>
+    <td>
+      The most basic distinguishing feature of a value type is that copying — the effect of assignment, initialization, and argument passing — creates an independent instance with its own unique copy of its data:
+      <pre>
+      swift
+      // Value type example
+      struct S { var data: Int = -1 }
+      var a = S()
+      var b = a						// a is copied to b
+      a.data = 42						// Changes a, not b
+      println("\(a.data), \(b.data)")	// prints "42, -1"
+      </pre>
+    </td>
+    <td>
+      Copying a reference, on the other hand, implicitly creates a shared instance. After a copy, two variables then refer to a single instance of the data, so   modifying data in the second variable also affects the original, e.g.:
+      <pre>
+      swift
+        // Reference type example
+        class C { var data: Int = -1 }
+        var x = C()
+        var y = x						// x is copied to y
+        x.data = 42						// changes the instance referred to by x (and y)
+        println("\(x.data), \(y.data)")	// prints "42, 42"
+      </pre>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Mutable</td>
+    <td>Immutable</td>
+  </tr>
+</table>
 
-The most basic distinguishing feature of a value type is that copying — the effect of assignment, initialization, and argument passing — creates an independent instance with its own unique copy of its data:
-```swift
-// Value type example
-struct S { var data: Int = -1 }
-var a = S()
-var b = a						// a is copied to b
-a.data = 42						// Changes a, not b
-println("\(a.data), \(b.data)")	// prints "42, -1"
-```
-Copying a reference, on the other hand, implicitly creates a shared instance. After a copy, two variables then refer to a single instance of the data, so modifying data in the second variable also affects the original, e.g.:
-```swift
-// Reference type example
-class C { var data: Int = -1 }
-var x = C()
-var y = x						// x is copied to y
-x.data = 42						// changes the instance referred to by x (and y)
-println("\(x.data), \(y.data)")	// prints "42, 42"
-```
+
 
 9. What are the access modifiers available in Swift? Explain them briefly. 
 
