@@ -308,7 +308,11 @@ let capacity = electricCar?.engineCapacity
 
 <img src="https://docs-assets.developer.apple.com/published/61283402a3/024b99c5-4ab6-4ee0-bb41-6e6426ec6a64.png" width="500"/>
 
-Every iOS application passes through the following states as it runs. ... Not Running: the app is considered to be in a Not Running state when it is not yet launched or terminated by the system or user. Inactive: the app is in an inactive state when it is in the foreground but receiving events.
+- Not Running: the app is considered to be in a Not Running state when it is terminated by the user.
+- Inactive: the app is in an inactive state when it is in the foreground but receiving events. 
+- Active: it is a normal mode for the app when it is in the foreground state and receiving all the user events.
+- Background: the app transitions into the background state when the user taps on the home screen while using the application.
+- Suspended: in this state, the app remains in the background and doesn't execute the code. 
 
 24. **Briefly explain the Auto layout, and how does it work.** 
 
@@ -321,9 +325,17 @@ Auto Layout dynamically calculates the size and position of all the views in you
 
 26. **Briefly explain why Generics are used in Swift.**
 
+Generics code enables us to write flexible and reusable functions and any type of requirements that we define.
+
 27. **What is the name of the Garbage Collection process found in iOS? Briefly explain how it works.** 
 
+Automatic Reference Counting (ARC) - ARC automatically frees up the memory used by class instances when those instances are no longer needed. if a object refered to another count will increased.  
+
 28. **Explain Cropping, Letterboxing and Pillarboxing. (Images are accepted with a description.**
+
+- Cropping - The cropping controls allow you a great degree of flexibility and versatility
+- Letterboxing - 
+- Pillaboxing - 
  
 29. **Briefly explain what are the application states of an iOS App. (images are accepted with a description)**
 
