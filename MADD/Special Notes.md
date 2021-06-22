@@ -1,3 +1,7 @@
+# Automatic Reference Counting 
+**Swift uses Automatic Reference Counting (ARC)** to track and manage your app’s memory usage. In most cases, this means that memory management “just works” in Swift, and you don’t need to think about memory management yourself. ARC automatically frees up the memory used by class instances when those instances are no longer needed.
+<a href="https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html" target="_blank">View more</a>
+
 ### How memory leak occur in iOS?
 A memory leak occur when contents are remains in the memory even after its lifecycle has ended.
 
@@ -10,7 +14,7 @@ class Person {
   }
   
   deinit {
-    print("\(name) is being deinitializing....")
+    print("\(name) is being deinitialized....")
   }
 }
 
@@ -21,6 +25,8 @@ class Apartment {
   init(no:Int) {
     self.no = no
   }
+  
+  deinit { print("Apartment \(no) is being deinitialized") }
 }
 
 let flutter: Person? = Person(name: "Flutter")
