@@ -54,13 +54,13 @@ struct Car {
     ```
 
 22. 
-25.What are the differences between a push segue and a modal segue? 
+25. What are the differences between a push segue and a modal segue? 
 
-26.Briefly explain why Generics are used in Swift.
+26. Briefly explain why Generics are used in Swift.
 
-27.What is the name of the Garbage Collection process found in iOS? Briefly explain how it works. 
+27. What is the name of the Garbage Collection process found in iOS? Briefly explain how it works. 
 
 28. Explain Cropping, Letterboxing and Pillarboxing. (Images are accepted with a description.
  
-30.Briefly explain what are the application states of an iOS App. (images are accepted with a description)
+29. Briefly explain what are the application states of an iOS App. (images are accepted with a description)
 
