@@ -226,9 +226,13 @@ struct Car {
 
 answer
 
+To declare a constant we can use `let` in swift and to declare a variable we can use `var`
 ```swift
 let car1 = Car(engineCapacity: 100) 
-car1 = Car(engineCapacity: 200) // we cannot assign another object to car1 because car1 is a constant
+car1 = Car(engineCapacity: 200) // ERROR: we cannot assign another object to car1 because car1 is a constant
+
+var car2 = Car(engineCapacity: 100)
+car2 = Car(engineCapacity: 200) // This is possible since car2 is a variable
 ```
 
 15. Do Swift initializers return values? Why?
