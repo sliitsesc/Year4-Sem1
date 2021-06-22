@@ -51,6 +51,7 @@ struct Car {
     }
     
     let electriCar = Car(engineCapacity: nil)
+    let capacity = electricCar.engineCapacity
     ```
 
 22. 
