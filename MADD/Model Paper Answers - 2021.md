@@ -285,30 +285,22 @@ func greet(_ name: String?) {
     a) Above code will generate a run time error. Explain why?
     ```swift
     struct Car {
-      let engineCapacity: Int
-  
-      init(_ engineCapacity: Int) {
-        self.engineCapacity = engineCapacity
-       }
-    }
-    
-    let electriCar = Car(engineCapacity: nil)
-    let capacity = electricCar.engineCapacity!
-    ```
-    
-    because in above code engineCapacity cannot be `nil` since `let electriCar = Car(engineCapacity: nil)` creating obeject with nil value and in the next line `let capacity = electricCar.engineCapacity` code trying to access the `engineCapacity` which is already `nil`
-
-22. **How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code**.
-
-```swift
-struct Car {
       let engineCapacity: Int?
   
       init(_ engineCapacity: Int?) {
         self.engineCapacity = engineCapacity
        }
     }
+    
+    let electriCar = Car(engineCapacity: nil)
+    let capacity = electricCar.engineCapacity
+    ```
+    
+    Since `let electriCar = Car(engineCapacity: nil)` creating obeject with nil value and in the next line `let capacity = electricCar.engineCapacity` code trying to access the `engineCapacity` which is already `nil`
 
+22. **How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code**.
+
+```swift
 let capacity = electricCar?.engineCapacity
 ```
 
