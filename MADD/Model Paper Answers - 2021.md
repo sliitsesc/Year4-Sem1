@@ -178,9 +178,15 @@ manager.data.append("Some more data")
 
 
 
-9. What are the access modifiers available in Swift? Explain them briefly. 
+9. **What are the access modifiers available in Swift? Explain them briefly.** 
+  - Public - everyone can read and write
+  - Private - read and write only inside the method
+  - File Private - Can read and write in the same file
+  - Internal - Only your swift code can read and write property. If you ship your code to another framework it wont work.
 
-10. Describe what is an extension in Swift.
+10. **Describe what is an extension in Swift.**
+
+Extensions add new functionality to an existing class, structure, enumeration, or protocol type. This includes the ability to extend types for which you don’t have access to the original source code (known as retroactive modeling).
 
 11. Consider the following structure that models a Person. Write an extension to make it possible to instantiate a Person instance as shown below.
 ```swift
@@ -190,9 +196,23 @@ struct Person {
 
 var x = Person(name: "Amal")
 ```
+answer
+```swift
+extention Person {
+  
+}
+```
 
 12. What is a Delegate in Swift? 
+
+Delegation is a simple and powerful pattern in which one object in a program acts on behalf of, or in coordination with, another object. 
+
 13. What are the collection types available in Swift? 
+
+* Arrays
+* Sets
+* Dictionaries
+
 14. Consider the following structure that models a car. What are the keywords in Swift to initialize a variable and a constant? Provide examples using the given Car data type?
 ```swift
 struct Car {
@@ -204,10 +224,32 @@ struct Car {
 }
 ```
 15. Do Swift initializers return values? Why?
+
+No. Initialization is the process for preparing a class, struct or enum for use. During this process setup initial values for stored property
+Unlike Objective-C swift doesn’t return values, Their primary role is to ensure that new instances of a type are correctly initialized.
+
 16. What is the use of Double question mark (??) in Swift? 
+
+**Double question mark** is a nil-coalescing operator. In plain terms, it is just a shorthand for saying != nil . First it checks if the the return value is nil, if it is indeed nil
+
 17. What is an Optional in Swift? What problem do Optionals solve?
+
+return nil if something goes wrong. The return value will then be an optional of your type, for you to unwrap however you want.
+
 18. Type an empty de initializer for a class called Person.
+
+```swift
+class Person {
+  deinit{
+  
+  }
+}
+```
+
 19. Briefly explain what is Optional Binding in Swift with an example. 
+
+
+
 20. Briefly explain what is Optional Guard in Swift with an example.
 21. Consider the following structure that models a car..
     a) Above code will generate a run time error. Explain why?
