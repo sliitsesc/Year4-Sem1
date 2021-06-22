@@ -62,7 +62,9 @@ struct Car {
     let capacity = electricCar.engineCapacity
     ```
 
-22. 
+22. How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code.
+23. Briefly explain the life cycle of an iOS application. (Images are accepted with a description)
+24. Briefly explain the Auto layout, and how does it work. 
 25. What are the differences between a push segue and a modal segue? 
 
 26. Briefly explain why Generics are used in Swift.
