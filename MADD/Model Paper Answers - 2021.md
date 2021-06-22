@@ -260,9 +260,27 @@ class Person {
 
 19. Briefly explain what is Optional Binding in Swift with an example. 
 
+```swift
+class Person {
+  var name: String? // If name is null that won't be a problem and won't be any compilation errors
+}
+```
 
 
 20. Briefly explain what is Optional Guard in Swift with an example.
+
+An alternative to if let is guard let, which also unwraps optionals. guard let will unwrap an optional for you, but if it finds nil inside it expects you to exit the function, loop, or condition you used it in.
+```swift
+func greet(_ name: String?) {
+    guard let unwrapped = name else {
+        print("You didn't provide a name!")
+        return
+    }
+
+    print("Hello, \(unwrapped)!")
+}
+```
+
 21. Consider the following structure that models a car..
     a) Above code will generate a run time error. Explain why?
     ```swift
@@ -277,6 +295,8 @@ class Person {
     let electriCar = Car(engineCapacity: nil)
     let capacity = electricCar.engineCapacity
     ```
+    
+    because in above code engineCapacity cannot be `nil` since `let electriCar = Car(engineCapacity: nil)` creating obeject with nil value and in the next line `let capacity = electricCar.engineCapacity` code trying to access the `engineCapacity` which is already `nil`
 
 22. How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code.
 23. Briefly explain the life cycle of an iOS application. (Images are accepted with a description)
