@@ -293,7 +293,7 @@ func greet(_ name: String?) {
     }
     
     let electriCar = Car(engineCapacity: nil)
-    let capacity = electricCar.engineCapacity
+    let capacity = electricCar.engineCapacity!
     ```
     
     because in above code engineCapacity cannot be `nil` since `let electriCar = Car(engineCapacity: nil)` creating obeject with nil value and in the next line `let capacity = electricCar.engineCapacity` code trying to access the `engineCapacity` which is already `nil`
@@ -314,9 +314,14 @@ let capacity = electricCar?.engineCapacity
 
 23. **Briefly explain the life cycle of an iOS application. (Images are accepted with a description)**
 
-![Life Cycle](https://docs-assets.developer.apple.com/published/61283402a3/024b99c5-4ab6-4ee0-bb41-6e6426ec6a64.png)
+<img src="https://docs-assets.developer.apple.com/published/61283402a3/024b99c5-4ab6-4ee0-bb41-6e6426ec6a64.png" width="500"/>
 
-24. Briefly explain the Auto layout, and how does it work. 
+Every iOS application passes through the following states as it runs. ... Not Running: the app is considered to be in a Not Running state when it is not yet launched or terminated by the system or user. Inactive: the app is in an inactive state when it is in the foreground but receiving events.
+
+24. **Briefly explain the Auto layout, and how does it work.** 
+
+Auto Layout dynamically calculates the size and position of all the views in your view hierarchy, based on constraints placed on those views. 
+
 25. What are the differences between a push segue and a modal segue? 
 
 26. Briefly explain why Generics are used in Swift.
