@@ -223,6 +223,14 @@ struct Car {
   }
 }
 ```
+
+answer
+
+```swift
+let car1 = Car(engineCapacity: 100) 
+car1 = Car(engineCapacity: 200) // we cannot assign another object to car1 because car1 is a constant
+```
+
 15. Do Swift initializers return values? Why?
 
 No. Initialization is the process for preparing a class, struct or enum for use. During this process setup initial values for stored property
