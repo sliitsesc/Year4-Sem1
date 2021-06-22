@@ -244,11 +244,11 @@ Unlike Objective-C swift doesn’t return values, Their primary role is to ensur
 
 **Double question mark** is a nil-coalescing operator. In plain terms, it is just a shorthand for saying != nil . First it checks if the the return value is nil, if it is indeed nil
 
-17. What is an Optional in Swift? What problem do Optionals solve?
+17. **What is an Optional in Swift? What problem do Optionals solve?**
 
 return nil if something goes wrong. The return value will then be an optional of your type, for you to unwrap however you want.
 
-18. Type an empty de initializer for a class called Person.
+18. **Type an empty de initializer for a class called Person.**
 
 ```swift
 class Person {
@@ -258,7 +258,7 @@ class Person {
 }
 ```
 
-19. Briefly explain what is Optional Binding in Swift with an example. 
+19. **Briefly explain what is Optional Binding in Swift with an example.** 
 
 ```swift
 class Person {
@@ -267,7 +267,7 @@ class Person {
 ```
 
 
-20. Briefly explain what is Optional Guard in Swift with an example.
+20. **Briefly explain what is Optional Guard in Swift with an example.**
 
 An alternative to if let is guard let, which also unwraps optionals. guard let will unwrap an optional for you, but if it finds nil inside it expects you to exit the function, loop, or condition you used it in.
 ```swift
@@ -281,7 +281,7 @@ func greet(_ name: String?) {
 }
 ```
 
-21. Consider the following structure that models a car..
+21. **Consider the following structure that models a car**..
     a) Above code will generate a run time error. Explain why?
     ```swift
     struct Car {
@@ -298,8 +298,24 @@ func greet(_ name: String?) {
     
     because in above code engineCapacity cannot be `nil` since `let electriCar = Car(engineCapacity: nil)` creating obeject with nil value and in the next line `let capacity = electricCar.engineCapacity` code trying to access the `engineCapacity` which is already `nil`
 
-22. How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code.
-23. Briefly explain the life cycle of an iOS application. (Images are accepted with a description)
+22. **How to eliminate the run time error of the above code, by using Optional Chaining? Demonstrate in code**.
+
+```swift
+struct Car {
+      let engineCapacity: Int?
+  
+      init(_ engineCapacity: Int?) {
+        self.engineCapacity = engineCapacity
+       }
+    }
+
+let capacity = electricCar?.engineCapacity
+```
+
+23. **Briefly explain the life cycle of an iOS application. (Images are accepted with a description)**
+
+![Life Cycle](https://docs-assets.developer.apple.com/published/61283402a3/024b99c5-4ab6-4ee0-bb41-6e6426ec6a64.png)
+
 24. Briefly explain the Auto layout, and how does it work. 
 25. What are the differences between a push segue and a modal segue? 
 
