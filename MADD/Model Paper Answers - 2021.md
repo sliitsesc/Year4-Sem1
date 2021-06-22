@@ -314,13 +314,16 @@ Every iOS application passes through the following states as it runs. ... Not Ru
 
 Auto Layout dynamically calculates the size and position of all the views in your view hierarchy, based on constraints placed on those views. 
 
-25. What are the differences between a push segue and a modal segue? 
+25. **What are the differences between a push segue and a modal segue?**
 
-26. Briefly explain why Generics are used in Swift.
+* Push Segue - Push segue has been renamed as Show segue. To create push segue, the parent view controller needs to be embedded in navigation controller. The navigation controller provides navigation bar. Once you connect two view controller with push segue, the child view controller will automatically has navigation bar on top. The child view controller will be added on top of the navigation stack. 
+* A modal segue (i.e. present modally), on the other hand, is presenting over the current view controller. The child view controller will not inherit navigation view controller so the navigation bar will be lost if you present modal segue from a view controller with navigation view controller. You have to embed the child view controller in navigation controller again and start a brand new navigation stack if you want it back. If you want to get back to parent view controller, you have to implement this by yourself and call dismiss from code.
 
-27. What is the name of the Garbage Collection process found in iOS? Briefly explain how it works. 
+26. **Briefly explain why Generics are used in Swift.**
 
-28. Explain Cropping, Letterboxing and Pillarboxing. (Images are accepted with a description.
+27. **What is the name of the Garbage Collection process found in iOS? Briefly explain how it works.** 
+
+28. **Explain Cropping, Letterboxing and Pillarboxing. (Images are accepted with a description.**
  
-29. Briefly explain what are the application states of an iOS App. (images are accepted with a description)
+29. **Briefly explain what are the application states of an iOS App. (images are accepted with a description)**
 
