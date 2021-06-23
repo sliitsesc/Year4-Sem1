@@ -49,3 +49,11 @@ class Apartment {
   }
 }
 ```
+
+## Closures 
+Closures can capture and store references to any constants and variables from the context in which they’re defined. This is known as closing over those constants and variables. Swift handles all of the memory management of capturing for you.
+```swift
+{ (parameters) -> return type in
+    statements
+}
+```
